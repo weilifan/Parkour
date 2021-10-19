@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class PickReward : MonoBehaviour
 {
     public Text countText;
-	private float count;
+	public static float count;
 	private float time = 0;
 	
 	void SetCount()
@@ -20,7 +20,7 @@ public class PickReward : MonoBehaviour
 		if(other.gameObject.tag == "PickUp")
 		{
 			other.gameObject.SetActive(false);
-			count += 1*50;
+			count += 1*5;
 			
 		}
 	}
