@@ -14,6 +14,7 @@ ScriptsOnlyBuild:
     - Move
     - PickReward
     - PlayerMovement
+    - Replay
     - RewardSpawn
     - Win
     Unity.Rider.Editor.dll:
@@ -112,6 +113,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 15352}
     - Class: 114
       Script: {instanceID: 20316}
+    - Class: 114
+      Script: {instanceID: 29866}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -889,6 +892,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Lose
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Replay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Exit
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
