@@ -4,8 +4,10 @@ ScriptsOnlyBuild:
     - AutoRotation
     - Autowalk
     - BarrierSpawn
+    - Exit
     - Follow
     - GvrEditorEmulator
+    - GvrPointerGraphicRaycaster
     - GvrPointerInputModule
     - GvrPointerPhysicsRaycaster
     - GvrReticlePointer
@@ -100,6 +102,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13644}
     - Class: 114
+      Script: {instanceID: 13888}
+    - Class: 114
       Script: {instanceID: 14082}
     - Class: 114
       Script: {instanceID: 14118}
@@ -115,6 +119,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 20316}
     - Class: 114
       Script: {instanceID: 29866}
+    - Class: 114
+      Script: {instanceID: 29872}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128

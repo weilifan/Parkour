@@ -5,12 +5,8 @@ public class Autowalk : MonoBehaviour
 {
     Transform mainCamera = null;
 
-    //This is the variable for the player speed
     [Tooltip("With this speed the player will move.")]
     public float speed;
-
-
-
     [Tooltip("This is the fixed x-coordinate.")]
     public float xOffset;
 	[Tooltip("This is the fixed y-coordinate.")]
@@ -34,7 +30,6 @@ public class Autowalk : MonoBehaviour
 			else
 				transform.Translate(direction);
         }
-
         else
         {
             transform.Translate(xOffset, yOffset, speed * Time.deltaTime);
