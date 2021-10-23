@@ -22,13 +22,7 @@ public class Autowalk : MonoBehaviour
         if (mainCamera.transform.forward.x != 0)
         {
             Vector3 direction = new Vector3(mainCamera.transform.forward.x, 0, mainCamera.transform.forward.z).normalized * speed * Time.deltaTime;
-            if(transform.rotation.eulerAngles.y != 0)
-			{
-				Quaternion rotation = Quaternion.Euler(new Vector3(0, -transform.rotation.eulerAngles.y, 0));
-				transform.Translate(rotation * direction);
-			}
-			else
-				transform.Translate(direction);
+            transform.Translate(direction);
         }
         else
         {
